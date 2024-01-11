@@ -42,7 +42,7 @@ a {
 }
 
 .content {
-    background-image: url(background.jpeg);
+    background-image: url(resources/background.jpeg);
     display: flex;
     justify-content: center;
     align-items: center;
