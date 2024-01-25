@@ -40,6 +40,30 @@ img {
 a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.1;
+}
+
+a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c59418;
+    display: block;
+    transition: 0.2s linear;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+a:hover{
+    color: #c59418;
+}
+
+.fa.fa-bars:hover {
+    color: #c59418;
 }
 
 .content {
