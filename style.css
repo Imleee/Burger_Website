@@ -29,11 +29,12 @@ img {
 .logo {
     display: flex;
     justify-content: center;
-    margin-right: 280px;
+    margin-right: 230px;
 }
 
-.notification {
+.fa.fa-bars{
     margin-left: auto;
+    font-size: 25px;
 }
 
 a {
@@ -43,28 +44,19 @@ a {
 
 .content {
     background-image: url(resources/background.jpeg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 50px;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 20px;
-}
-
-.image>img {
-    position: relative;
-    left: 50px;
-    width: 550px;
+    padding: 95px;
 }
 
 h1 {
     font-size: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(30, 29, 29);
+    line-height: 1;
 }
 
 p {
@@ -84,7 +76,23 @@ button {
 }
 
 .letter {
-    max-width: 100%;
+    margin-left: -40px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.container>.mainpic {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+}
+
+.mainpic>img {
+    width: 665px;
+}
+
+h2 {
+    font-size: 110px;
 }
 
 .product {
@@ -118,7 +126,6 @@ button {
 }
 
 .info>img {
-    border: 1px solid black;
     width: 200px;
     height: 200px;
 }
